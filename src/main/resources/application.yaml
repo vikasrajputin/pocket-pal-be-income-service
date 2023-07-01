@@ -1,0 +1,8 @@
+#MySQL Database
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/pocket-pal-db
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
